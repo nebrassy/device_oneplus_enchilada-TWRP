@@ -5,6 +5,7 @@
  *
  * Copyright (C) 2012 The Android Open Source Project
  * Copyright (C) 2018 The LineageOS Project
+ * Copyright (C) 2020 Android Ice Cold Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -31,4 +32,6 @@
 #define BT_CLEAN_TURN_ON_DISABLED 1
 /* Increasing SEPs to 12 from 6 to support SHO/MCast i.e. two streams per codec */
 #define AVDT_NUM_SEPS 12
+// increase MTU size
+#define HID_DEV_MTU_SIZE 192
 #endif
