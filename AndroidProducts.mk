@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aicp_enchilada.mk
+    $(LOCAL_DIR)/twrp_enchilada.mk
 
 COMMON_LUNCH_CHOICES := \
-    aicp_enchilada-user \
-    aicp_enchilada-userdebug \
-    aicp_enchilada-eng
+    twrp_enchilada-user \
+    twrp_enchilada-userdebug \
+    twrp_enchilada-eng
